@@ -1,0 +1,7 @@
+*.o
+*.out
+build/
+*.exe
+*.dSYM/
+.DS_Store
+*.log

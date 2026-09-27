@@ -1,0 +1,10 @@
+# This is a C++ / POSIX systems-programming project, not a Python project.
+# There are no pip-installable dependencies.
+#
+# Toolchain needed to build and run it:
+#   - A C++17-capable compiler (g++ or clang++)
+#   - A POSIX-compliant OS (Linux/macOS, or WSL on Windows) for src/shell.cpp,
+#     which uses <unistd.h>, <sys/wait.h>, fork()/execvp()/pipe()/waitpid()
+#   - pthread support (for src/synchronization.cpp's std::thread/std::mutex)
+#
+# See README.md "Build & run" for the exact compile commands.
